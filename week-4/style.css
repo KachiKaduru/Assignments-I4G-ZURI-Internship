@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #bebdbd;
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.flex-container {
+  background-color: white;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 12px;
+  color: white;
+}
+.flex-container .card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  gap: 30px;
+}
+.flex-container .card .icon {
+  aspect-ratio: 1/1;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgba(129, 119, 119, 0.76);
+}
+.flex-container .card h2 {
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  font-size: 36px;
+}
+.flex-container .card p {
+  margin-bottom: 20px;
+}
+.flex-container .card button {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid none;
+  border-radius: 32px;
+  padding: 10px 20px;
+}
+.flex-container .sedans {
+  background-color: orange;
+}
+.flex-container .sedans button {
+  color: orange;
+}
+.flex-container .suv {
+  background-color: green;
+}
+.flex-container .suv button {
+  color: green;
+}
+.flex-container .luxury {
+  background-color: darkgreen;
+}
+.flex-container .luxury button {
+  color: darkgreen;
+}
+
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  background-color: rgb(187, 34, 154);
+  max-width: 700px;
+  min-height: 300px;
+  margin: auto;
+  padding: 12px;
+}
+.grid-container .top {
+  height: 200px;
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1.3fr 0.7fr;
+}
+.grid-container .bottom {
+  height: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.grid-container .orange {
+  background-color: orange;
+}
+.grid-container .gold {
+  background-color: gold;
+}
+.grid-container .green {
+  background-color: green;
+  grid-row: 1/3;
+}
+.grid-container .blue {
+  background-color: blue;
+}
