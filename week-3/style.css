@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  transition: all 0.3s;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+section {
+  margin: 8rem 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.menu-btn,
+.exit-btn {
+  display: none;
+}
+
+.fs-58 {
+  font-weight: 700;
+  font-size: 5.8rem;
+  line-height: 7rem;
+  letter-spacing: -1px;
+}
+
+.fs-42a {
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 5.2rem;
+  letter-spacing: -0.4px;
+}
+
+.fs-42 {
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 5.2rem;
+  letter-spacing: -0.4px;
+  margin-bottom: 3.5rem;
+}
+
+.fs-20-5 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0;
+  font-family: "DM Sans";
+  color: #666666;
+}
+
+.fs-20-4 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  letter-spacing: 1px;
+}
+
+.fs-18 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  letter-spacing: 0;
+  color: #666666;
+}
+
+.fs-12 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 2.8rem;
+  letter-spacing: 0;
+  color: #a7a7a7;
+}
+
+.mb-15 {
+  margin: 1rem 0 1.5rem;
+}
+
+.grd {
+  display: grid;
+}
+
+.grd-col-62 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+  gap: 0;
+}
+
+.flx {
+  display: flex;
+}
+
+main .container {
+  height: 55rem;
+}
+main .container .left-col {
+  margin: 5rem 0 0 0;
+}
+main .container .right-col {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+main .container .img-space {
+  aspect-ratio: 1/1;
+  width: 58%;
+  border: 1rem solid #a7a7a7;
+  border-radius: 50%;
+  background: url(../images/person.jpg);
+  background-size: cover;
+  background-position: 0 -5rem;
+}
+
+.about-stn .left-col {
+  gap: 4rem 0;
+}
+
+.contact-stn form {
+  display: grid;
+  width: 60%;
+  padding: 1rem 3rem;
+  background-color: rgba(204, 204, 204, 0.185);
+}
+.contact-stn form fieldset {
+  margin-bottom: 3rem;
+}
+.contact-stn form fieldset legend {
+  font-weight: 600;
+}
+.contact-stn form fieldset input {
+  background: none;
+  border-bottom: 1px solid #ccc;
+  font-family: "Poppins", sans-serif;
+  width: 80%;
+}
+.contact-stn form fieldset textarea {
+  background: rgba(184, 174, 174, 0.295);
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+}
+.contact-stn form input[type="submit"] {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  background-color: #ccc;
+}
+
+.stack-stn .tech-stacks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 3rem;
+  margin: 3rem 0 5rem;
+}
+.stack-stn .tech-stacks .stack {
+  aspect-ratio: 1.2/1;
+}
+.stack-stn .tech-stacks .vs-code {
+  background: url(/images/vscode.svg);
+  background-size: cover;
+  background-position: center;
+}
+.stack-stn .tech-stacks .html {
+  background: url(/images/html.svg);
+  background-size: contain;
+  background-position: center;
+}
+.stack-stn .tech-stacks .css {
+  background: url(/images/css.svg);
+  background-size: contain;
+  background-position: center;
+}
+.stack-stn .tech-stacks .sass {
+  background: url(/images/sass.svg);
+  background-size: cover;
+}
+.stack-stn .tech-stacks .js {
+  background: url(/images/javascript.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.projects-stn .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 4rem;
+}
+.projects-stn .projects .project {
+  background-color: rgba(204, 204, 204, 0.164);
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+}
+.projects-stn .projects .project iframe {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+.projects-stn .projects .project h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.grd-h {
+  display: grid;
+  grid-template-columns: 13rem auto;
+  align-items: center;
+  padding: 4.1rem 0;
+}
+
+.logo {
+  background: linear-gradient(to right bottom, red, blue);
+}
+.logo h1 {
+  background-color: #ffffff;
+  mix-blend-mode: screen;
+}
+
+nav {
+  justify-self: end;
+  align-items: center;
+  gap: 3rem;
+}
+nav ul {
+  gap: 5rem;
+}
+nav ul li a {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 0;
+  font-family: "DM Sans";
+  color: #666666;
+}
+nav .sec-nav {
+  gap: 2rem;
+}
+
+footer .container {
+  border-top: 2px solid #a7a7a7;
+}
+
+nav {
+  justify-content: space-between;
+  padding: 4rem 2rem;
+}
